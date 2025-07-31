@@ -1,22 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE animals SYSTEM "animals.dtd">
 <database name="animals_db">
-    <table name="animals">
-        <columns>
-            <column name="animal_id" type="int" nullable="false" auto_increment="true"/>
-            <column name="name" type="varchar(100)" nullable="false"/>
-            <column name="birth_year" type="int" nullable="false"/>
-            <column name="habitat" type="varchar(100)" nullable="true"/>
-            <column name="lifespan" type="int" nullable="true"/>
-            <column name="type_id" type="int" nullable="true" foreign_key="types.type_id"/>
-        </columns>
-        <data>
-            <row animal_id="1" name="Turtle" birth_year="1900" habitat="rivers" lifespan="300" type_id="3"/>
-            <row animal_id="2" name="tucan" birth_year="2009" habitat="trees" lifespan="40" type_id="2"/>
-            <row animal_id="3" name="platipus" birth_year="1983" habitat="haifa" lifespan="10" type_id="1"/>
-            <row animal_id="5" name="tiger" birth_year="2010" habitat="desert" lifespan="80" type_id="1"/>
-            <row animal_id="8" name="hippo" birth_year="2007" habitat="water" lifespan="80" type_id="1"/>
-            <row animal_id="9" name="shkimaj" birth_year="2019" habitat="poland" lifespan="30" type_id="1"/>
-        </data>
-    </table>
+  <table name="animals">
+    <columns>
+      <column name="animal_id" type="int" nullable="false" auto_increment="true"/>
+      <column name="name" type="varchar(100)" nullable="false"/>
+      <column name="birth_year" type="int" nullable="false"/>
+      <column name="habitat" type="varchar(100)" nullable="true"/>
+      <column name="lifespan" type="int" nullable="true"/>
+      <column name="type_id" type="int" nullable="true" foreign_key="types.type_id"/>
+    </columns>
+    <data>
+      <row animal_id="1" name="Turtle" birth_year="1900" habitat="rivers" lifespan="300" type_id="3"/>
+      <row animal_id="2" name="tucan" birth_year="2009" habitat="trees" lifespan="40" type_id="2"/>
+      <row animal_id="3" name="platipus" birth_year="1983" habitat="haifa" lifespan="10" type_id="1"/>
+      <row animal_id="5" name="tiger" birth_year="2010" habitat="desert" lifespan="80" type_id="1"/>
+      <row animal_id="8" name="hippo" birth_year="2007" habitat="water" lifespan="80" type_id="1"/>
+      <row animal_id="9" name="shkimaj" birth_year="2019" habitat="poland" lifespan="30" type_id="1"/>
+      <row animal_id="8517" name="zebra" birth_year="2013" habitat="unknown" lifespan="12" type_id="1"/>
+      <row animal_id="3425" name="zebra" birth_year="2013" habitat="unknown" lifespan="12" type_id="1"/>
+      <row animal_id="8324" name="" birth_year="2025" habitat="unknown" lifespan="" type_id="1"/>
+      <row animal_id="9844" name="" birth_year="2025" habitat="unknown" lifespan="" type_id="1"/>
+      <row animal_id="8441" name="sloth" birth_year="1975" habitat="unknown" lifespan="50" type_id="1"/>
+      <row animal_id="6581" name="huminai" birth_year="1825" habitat="unknown" lifespan="200" type_id="1"/>
+    </data>
+  </table>
 </database>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animals SYSTEM "animals.dtd">
+<database name="animals_db">
+  <table name="animals">
+    <columns>
+      <column name="animal_id" type="int" nullable="false" auto_increment="true"/>
+      <column name="name" type="varchar(100)" nullable="false"/>
+      <column name="birth_year" type="int" nullable="false"/>
+      <column name="habitat" type="varchar(100)" nullable="true"/>
+      <column name="lifespan" type="int" nullable="true"/>
+      <column name="type_id" type="int" nullable="true" foreign_key="types.type_id"/>
+    </columns>
+    <data>
+      <row animal_id="1" name="Turtle" birth_year="1900" habitat="rivers" lifespan="300" type_id="3"/>
+      <row animal_id="2" name="tucan" birth_year="2009" habitat="trees" lifespan="40" type_id="2"/>
+      <row animal_id="3" name="platipus" birth_year="1983" habitat="haifa" lifespan="10" type_id="1"/>
+      <row animal_id="5" name="tiger" birth_year="2010" habitat="desert" lifespan="80" type_id="1"/>
+      <row animal_id="8" name="hippo" birth_year="2007" habitat="water" lifespan="80" type_id="1"/>
+      <row animal_id="9" name="shkimaj" birth_year="2019" habitat="poland" lifespan="30" type_id="1"/>
+      <row animal_id="8517" name="zebra" birth_year="2013" habitat="unknown" lifespan="12" type_id="1"/>
+    </data>
+  </table>
+  <animal>
+    <name/>
+    <type/>
+    <age/>
+  </animal>
+  <animal>
+    <name>shlimak</name>
+    <type>zohel</type>
+    <age>1</age>
+  </animal>
+  <animal>
+    <name>shllimak</name>
+    <type>mamal</type>
+    <age>40</age>
+  </animal>
+  <animal>
+    <name>tiger</name>
+    <type>maml</type>
+    <age>27</age>
+  </animal>
+  <animal>
+    <name>eli</name>
+    <type>sqli</type>
+    <age>105</age>
+  </animal>
+  <animal>
+    <name/>
+    <type/>
+    <age/>
+  </animal>
+</database> -->
